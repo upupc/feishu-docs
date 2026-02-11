@@ -5,6 +5,14 @@ license: MIT
 metadata:
   author: feishu-docs
   version: "1.0.0"
+  openclaw:
+     requires:
+        env:
+           - FEISHU_APP_ID
+           - FEISHU_APP_SECRET
+        bins:
+           - node
+     homepage: https://github.com/upupc/feishu-docs
 ---
 
 # Feishu Docs Skill
