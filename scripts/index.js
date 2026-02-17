@@ -574,7 +574,6 @@ program.on('--help', () => {
   console.log('  $ feishu-docs get -d doccxxxxxxxxxxxxxx -o output.md --format markdown');
   console.log('  $ feishu-docs create -f foldxxxxxxxxxxxxxx -t "我的文档"');
   console.log('  $ feishu-docs create -f foldxxxxxxxxxxxxxx -t "我的文档" --file content.txt');
-  console.log('  $ feishu-docs upload -f ./document.pdf --folder-token foldxxxxxxxxxxxxxx');
   console.log('  $ feishu-docs import-file -f ./document.pdf --folder-token foldxxxxxxxxxxxxxx --type docx --ext txt');
   console.log('  $ feishu-docs list --folder-token foldxxxxxxxxxxxxxx');
   console.log('  $ feishu-docs delete -d doccxxxxxxxxxxxxxx --force');
